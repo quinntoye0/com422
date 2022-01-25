@@ -1,14 +1,7 @@
-import car_class as c
+import Car as c
 
-car1 = c.Car()
-car1.current_speed = 5
-car1.max_speed = 120
-car1.fuel_level = 52
-
-car2 = c.Car()
-car2.current_speed = 42
-car2.max_speed = 200
-car2.fuel_level = 82
+car1 = c.Car(5, 120, 52)
+car2 = c.Car(42, 200, 82)
 
 
 def display_objects():
